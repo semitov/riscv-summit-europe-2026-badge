@@ -388,7 +388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "st7789screens:st7789_7pin_noblk"
 			(at 44.45 21.59 0)
 			(hide yes)
 			(show_name no)
