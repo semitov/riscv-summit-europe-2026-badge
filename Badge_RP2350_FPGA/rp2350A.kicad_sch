@@ -2964,6 +2964,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(bezier
+		(pts
+			(xy 156.21 76.2) (xy 157.48 80.01) (xy 157.48 80.01) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0f0594ab-e3ef-4d50-b8af-a262093a3377")
+	)
+	(bezier
+		(pts
+			(xy 156.21 111.76) (xy 157.48 115.57) (xy 157.48 115.57) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "54d33d90-911d-4b19-b0c5-4b48bb1e1d86")
+	)
 	(circle
 		(center 43.18 65.405)
 		(radius 0.635)
@@ -2989,6 +3015,16 @@
 		)
 		(uuid "0f118486-1fd6-4b5d-9bee-4a3caedc017b")
 	)
+	(text "RP2350 to \nflash 2 (shared)"
+		(exclude_from_sim no)
+		(at 165.862 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "33298740-386f-4d7a-a485-5b1071f15cc8")
+	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
 		(at 134.62 167.64 0)
@@ -3013,7 +3049,7 @@
 	)
 	(text "RP2350 to GOWIN \ndirtyJtag connection"
 		(exclude_from_sim no)
-		(at 166.116 114.554 0)
+		(at 167.386 115.824 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5260,16 +5296,6 @@
 		)
 		(uuid "13a4220f-f234-4c24-abbd-59aee793b7d1")
 	)
-	(label "GPIO5"
-		(at 154.94 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1816b003-a64a-43cc-843b-60199947644b")
-	)
 	(label "GPIO8"
 		(at 154.94 91.44 180)
 		(effects
@@ -5279,16 +5305,6 @@
 			(justify right bottom)
 		)
 		(uuid "199604bd-24e1-4ede-a16d-15250eb60896")
-	)
-	(label "GPIO2"
-		(at 154.94 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ccb730a-87bd-4cdc-9b59-3e3eaf2a32f4")
 	)
 	(label "GPIO27_ADC1"
 		(at 154.94 142.24 180)
@@ -5329,16 +5345,6 @@
 			(justify left bottom)
 		)
 		(uuid "281da185-96cb-4044-a77b-e02a3371af32")
-	)
-	(label "GPIO4"
-		(at 154.94 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2886b797-79a8-461a-bc6a-9080fe2a7a5e")
 	)
 	(label "QSPI_SD0"
 		(at 236.22 101.6 180)
@@ -5389,6 +5395,16 @@
 			(justify left bottom)
 		)
 		(uuid "39042b95-26e7-4e7d-bdbe-43338f3f2acd")
+	)
+	(label "MCS_N"
+		(at 154.94 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3fe60ffb-8ceb-427c-8959-56a91c5a0618")
 	)
 	(label "QSPI_SCLK"
 		(at 236.22 99.06 180)
@@ -5510,6 +5526,16 @@
 		)
 		(uuid "7b32ed15-ee1b-413d-9447-feeab3ab43ed")
 	)
+	(label "MCLK"
+		(at 154.94 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7eb951f3-4070-4125-83b4-7c2d7d883cfe")
+	)
 	(label "USB_D-"
 		(at 172.72 63.5 180)
 		(effects
@@ -5570,16 +5596,6 @@
 		)
 		(uuid "91f8ed10-5074-45ca-bce3-6d79851bd058")
 	)
-	(label "GPIO3"
-		(at 154.94 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "967d3533-6a9b-4144-b7ce-db978f5e2b04")
-	)
 	(label "QSPI_SD3"
 		(at 236.22 109.22 180)
 		(effects
@@ -5609,6 +5625,16 @@
 			(justify right bottom)
 		)
 		(uuid "99e3a169-5744-4034-9693-6bc8a57da33d")
+	)
+	(label "MOSI_SD0"
+		(at 154.94 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dafab43-054a-4ee6-b48c-3d5bb80b122a")
 	)
 	(label "GPIO12"
 		(at 154.94 101.6 180)
@@ -5719,6 +5745,16 @@
 			(justify left bottom)
 		)
 		(uuid "d818aaab-6cde-4752-865b-65947d74141f")
+	)
+	(label "MISO_SD1"
+		(at 154.94 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8bdf3c0-8d95-48f9-bfd6-d3bb06595032")
 	)
 	(label "SWCLK"
 		(at 123.19 171.45 0)
