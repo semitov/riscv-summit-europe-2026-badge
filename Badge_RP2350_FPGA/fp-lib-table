@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "st7789screens") (type "KiCad") (uri "${KIPRJMOD}/st7789screens.pretty") (options "") (descr ""))
+)
