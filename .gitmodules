@@ -1,0 +1,3 @@
+[submodule "Core/Datapath"]
+	path = Core/Datapath
+	url = git@github.com:semitov/RV32I-datapath-design.git
