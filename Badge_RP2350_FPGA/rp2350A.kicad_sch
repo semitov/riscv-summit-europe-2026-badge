@@ -3015,7 +3015,7 @@
 		)
 		(uuid "0f118486-1fd6-4b5d-9bee-4a3caedc017b")
 	)
-	(text "RP2350 to \nflash 2 (shared)"
+	(text "RP2350 to \nFlash 2 (shared)"
 		(exclude_from_sim no)
 		(at 165.862 80.264 0)
 		(effects

@@ -3156,6 +3156,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 60.96) (xy 179.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393d3487-50da-4c82-a6e9-8713140c7e0f")
+	)
+	(wire
+		(pts
 			(xy 241.3 24.13) (xy 237.49 24.13)
 		)
 		(stroke
@@ -3606,6 +3616,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 63.5) (xy 179.07 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3c20aa-3b18-4dd7-9c39-9a2e130f91a6")
+	)
+	(wire
+		(pts
 			(xy 228.6 34.29) (xy 224.79 34.29)
 		)
 		(stroke
@@ -3954,6 +3974,16 @@
 		)
 		(uuid "6fea5fa3-8640-4f79-bc40-0e23c97f636b")
 	)
+	(label "GPIO1"
+		(at 179.07 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "712688db-fc86-4964-b26f-3b6dd1ba0644")
+	)
 	(label "TDI"
 		(at 88.9 71.12 0)
 		(effects
@@ -4013,6 +4043,16 @@
 			(justify right bottom)
 		)
 		(uuid "b4c69545-7b1e-4a31-a46f-e328713c69a0")
+	)
+	(label "GPIO0"
+		(at 179.07 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9ea5c93-86f9-4399-affc-4d70a049affd")
 	)
 	(label "TCK"
 		(at 88.9 68.58 0)
