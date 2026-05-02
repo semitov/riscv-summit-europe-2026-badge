@@ -416,7 +416,7 @@
         "uuid": "0ce87b49-0553-4a87-87c1-84e31180901e"
       }
     ],
-    "used_designators": "SW3-11,D1-3,D5-7,D9-11",
+    "used_designators": "U3-4,R1,R9-10,R13,R16-17,L2-4,#PWR1,#PWR4-6,#PWR8,#PWR10-11,#PWR33,#PWR37-49,SW3-11,C1-2,C5,C40-48,D1-3,D5-7,D9-11",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,10 @@
     [
       "e2446d2b-ae35-4e61-9554-78e9a4abd0b0",
       "Peripherals 1"
+    ],
+    [
+      "d42deb57-951c-4ebe-afa1-91d9e0ce4651",
+      "Power delivery"
     ]
   ],
   "text_variables": {},

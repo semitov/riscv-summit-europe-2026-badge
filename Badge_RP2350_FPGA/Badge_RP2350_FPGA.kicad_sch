@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 110.49 114.3)
+		(size 77.47 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d42deb57-951c-4ebe-afa1-91d9e0ce4651")
+		(property "Sheetname" "Power delivery"
+			(at 110.49 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_delivery_sch.kicad_sch"
+			(at 110.49 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 30.48 114.3)
 		(size 55.88 52.07)
 		(exclude_from_sim no)
