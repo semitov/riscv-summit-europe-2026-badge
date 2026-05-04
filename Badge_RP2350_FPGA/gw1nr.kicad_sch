@@ -9,7 +9,7 @@
 		(date "2026-03-29")
 		(rev "v1.0")
 		(company "SemiTO-V, RISC-V Student Team")
-		(comment 3 "License: CERN-OHL-W")
+		(comment 3 "License: CERN-OHL-W-2.0")
 		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno")
 	)
 	(lib_symbols
@@ -3074,6 +3074,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 80.01) (xy 77.47 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feda232-ef71-44bb-b576-404d2adb0ff4")
+	)
+	(wire
+		(pts
 			(xy 166.37 43.18) (xy 179.07 43.18)
 		)
 		(stroke
@@ -3181,6 +3191,16 @@
 			(type default)
 		)
 		(uuid "3b9653ee-245d-432c-a864-2de93b7ab846")
+	)
+	(wire
+		(pts
+			(xy 77.47 68.58) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d68450e-f27c-482d-b897-51aa6264ee1d")
 	)
 	(wire
 		(pts
@@ -3364,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 100.33 68.58)
+			(xy 77.47 68.58) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4123,7 @@
 		(uuid "b9ea5c93-86f9-4399-affc-4d70a049affd")
 	)
 	(label "TCK"
-		(at 86.36 68.58 0)
+		(at 77.47 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5717,6 +5737,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 77.47 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e28daa2-e9b2-4fa1-9161-46e15c5f8fc6")
+		(property "Reference" "#PWR053"
+			(at 77.47 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34a6e14d-eebd-4676-ad18-5a8a5287b8a5")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q32JVSS")
 		(at 245.11 132.08 0)
 		(unit 1)
@@ -5974,6 +6070,88 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d1e343-92ae-47a1-83ba-7c2a1f878a1d")
+		(property "Reference" "R19"
+			(at 80.01 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 80.01 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+			(at 79.248 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34550ebf-f32d-4a57-8a26-95b2afe8b7aa")
+		)
+		(pin "2"
+			(uuid "1b2c938d-9f68-436e-904a-0eea34dc71b6")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
+					(reference "R19")
 					(unit 1)
 				)
 			)
