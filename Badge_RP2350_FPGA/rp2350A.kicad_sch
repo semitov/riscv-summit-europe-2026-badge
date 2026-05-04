@@ -9,7 +9,7 @@
 		(date "2026-03-29")
 		(rev "v1.0")
 		(company "SemiTO-V, RISC-V Student Team")
-		(comment 3 "License: CERN-OHL-W")
+		(comment 3 "License: CERN-OHL-W-2.0")
 		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno")
 	)
 	(lib_symbols
@@ -2974,19 +2974,6 @@
 	)
 	(bezier
 		(pts
-			(xy 161.29 78.74) (xy 162.56 82.55) (xy 162.56 82.55) (xy 161.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0f0594ab-e3ef-4d50-b8af-a262093a3377")
-	)
-	(bezier
-		(pts
 			(xy 161.29 114.3) (xy 162.56 118.11) (xy 162.56 118.11) (xy 161.29 121.92)
 		)
 		(stroke
@@ -3035,16 +3022,6 @@
 			(justify left bottom)
 		)
 		(uuid "0f118486-1fd6-4b5d-9bee-4a3caedc017b")
-	)
-	(text "RP2350 to \nFlash 2 (shared)"
-		(exclude_from_sim no)
-		(at 170.942 82.804 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "33298740-386f-4d7a-a485-5b1071f15cc8")
 	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
@@ -5427,7 +5404,7 @@
 		)
 		(uuid "39042b95-26e7-4e7d-bdbe-43338f3f2acd")
 	)
-	(label "MCS_N"
+	(label "GPIO5"
 		(at 160.02 86.36 180)
 		(effects
 			(font
@@ -5557,7 +5534,7 @@
 		)
 		(uuid "7b32ed15-ee1b-413d-9447-feeab3ab43ed")
 	)
-	(label "MCLK"
+	(label "GPIO2"
 		(at 160.02 78.74 180)
 		(effects
 			(font
@@ -5657,7 +5634,7 @@
 		)
 		(uuid "99e3a169-5744-4034-9693-6bc8a57da33d")
 	)
-	(label "MOSI_SD0"
+	(label "GPIO3"
 		(at 160.02 81.28 180)
 		(effects
 			(font
@@ -5777,7 +5754,7 @@
 		)
 		(uuid "d818aaab-6cde-4752-865b-65947d74141f")
 	)
-	(label "MISO_SD1"
+	(label "GPIO4"
 		(at 160.02 83.82 180)
 		(effects
 			(font
@@ -5936,7 +5913,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "076f25c4-7ff0-4dc1-9456-3c81dd5de76f")
 		(property "Reference" "R11"
 			(at 216.0016 88.392 0)
@@ -6412,7 +6389,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3561a0ac-caea-4989-850e-ae4bc1d9383b")
 		(property "Reference" "R3"
 			(at 240.538 89.0016 0)
