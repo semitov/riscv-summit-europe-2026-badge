@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "be84ccb6-4d45-4219-aa95-f4c9412ca586")
 	(paper "A4")
+	(title_block
+		(title "RISC-V Summit Europe Badge")
+		(date "2026-03-29")
+		(rev "v1.0")
+		(company "SemiTO-V, RISC-V Student Team")
+		(comment 3 "License: CERN-OHL-W")
+		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -3356,7 +3364,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 68.58) (xy 100.33 68.58)
+			(xy 86.36 68.58) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3666,6 +3674,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 109.22) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60b8ea2-a26f-4f74-b4e2-f9ca29e170e4")
+	)
+	(wire
+		(pts
 			(xy 252.73 54.61) (xy 248.92 54.61)
 		)
 		(stroke
@@ -3686,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 100.33 66.04)
+			(xy 86.36 66.04) (xy 100.33 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3766,7 +3784,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 73.66) (xy 100.33 73.66)
+			(xy 86.36 73.66) (xy 100.33 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3783,6 +3801,16 @@
 			(type default)
 		)
 		(uuid "e153b06f-b6d7-46b7-b2ae-de5b785361ab")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48f38f8-6e29-4700-a1b4-3d982715a47a")
 	)
 	(wire
 		(pts
@@ -3856,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 100.33 71.12)
+			(xy 86.36 71.12) (xy 100.33 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3964,8 +3992,28 @@
 		)
 		(uuid "5467d1b3-5357-446a-b5bf-54a85f250615")
 	)
+	(label "UART1_TX"
+		(at 86.36 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5912be68-48a1-4ef4-9266-e1772d64910d")
+	)
+	(label "UART1_RX"
+		(at 86.36 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e92040b-fee2-49f3-a382-70c30f59b020")
+	)
 	(label "TMS"
-		(at 88.9 66.04 0)
+		(at 86.36 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3985,7 +4033,7 @@
 		(uuid "712688db-fc86-4964-b26f-3b6dd1ba0644")
 	)
 	(label "TDI"
-		(at 88.9 71.12 0)
+		(at 86.36 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4015,7 +4063,7 @@
 		(uuid "8be1b55b-bf10-4eb5-8f50-b4e8925e9e9e")
 	)
 	(label "TDO"
-		(at 88.9 73.66 0)
+		(at 86.36 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,7 +4103,7 @@
 		(uuid "b9ea5c93-86f9-4399-affc-4d70a049affd")
 	)
 	(label "TCK"
-		(at 88.9 68.58 0)
+		(at 86.36 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4107,7 +4155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 55.5752 0)
 			(hide yes)
 			(show_name no)
@@ -4188,7 +4236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.31 45.4152 0)
 			(hide yes)
 			(show_name no)
@@ -4269,7 +4317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.31 25.0952 0)
 			(hide yes)
 			(show_name no)
@@ -4350,7 +4398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 25.0952 0)
 			(hide yes)
 			(show_name no)
@@ -4583,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 25.0952 0)
 			(hide yes)
 			(show_name no)
@@ -4664,7 +4712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 45.4152 0)
 			(hide yes)
 			(show_name no)
@@ -4821,7 +4869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 45.4152 0)
 			(hide yes)
 			(show_name no)
@@ -4902,7 +4950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 55.5752 0)
 			(hide yes)
 			(show_name no)
@@ -4983,7 +5031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.31 35.2552 0)
 			(hide yes)
 			(show_name no)
@@ -5144,7 +5192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 35.2552 0)
 			(hide yes)
 			(show_name no)
@@ -5225,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 55.5752 0)
 			(hide yes)
 			(show_name no)
@@ -5306,7 +5354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 25.0952 0)
 			(hide yes)
 			(show_name no)
@@ -5801,7 +5849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 35.2552 0)
 			(hide yes)
 			(show_name no)
@@ -5883,7 +5931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 216.408 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -5964,7 +6012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 241.3 65.7352 0)
 			(hide yes)
 			(show_name no)
@@ -6045,7 +6093,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 45.4152 0)
 			(hide yes)
 			(show_name no)
@@ -6205,7 +6253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 75.8952 0)
 			(hide yes)
 			(show_name no)
@@ -6285,7 +6333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GW1N-LV9QN88C6_I5_:QFN40P1000X1000X95-89N"
+		(property "Footprint" "semitovpartslibrary:QFN40P1000X1000X95-89N"
 			(at 133.35 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6840,7 +6888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 35.2552 0)
 			(hide yes)
 			(show_name no)
@@ -6921,7 +6969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 265.43 65.7352 0)
 			(hide yes)
 			(show_name no)
