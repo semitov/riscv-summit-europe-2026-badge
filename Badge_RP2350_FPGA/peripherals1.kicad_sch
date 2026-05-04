@@ -4,6 +4,14 @@
 	(generator_version "10.0")
 	(uuid "bfb500ed-9c34-4847-9d37-f02a376c664d")
 	(paper "A4")
+	(title_block
+		(title "RISC-V Summit Europe Badge")
+		(date "2026-03-29")
+		(rev "v1.0")
+		(company "SemiTO-V, RISC-V Student Team")
+		(comment 3 "License: CERN-OHL-W")
+		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno")
+	)
 	(lib_symbols
 		(symbol "Device:D_Small"
 			(pin_numbers
@@ -1432,7 +1440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 52.07 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1512,7 +1520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 102.87 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -1592,7 +1600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 43.18 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -1694,7 +1702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 52.07 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -1774,7 +1782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 68.58 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -1876,7 +1884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -1978,7 +1986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2058,7 +2066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 43.18 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -2160,7 +2168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 68.58 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -2262,7 +2270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -2364,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 102.87 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2444,7 +2452,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 102.87 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2524,7 +2532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 52.07 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2604,7 +2612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 43.18 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -2706,7 +2714,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2786,7 +2794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 68.58 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -2888,7 +2896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "st7789screens:st7789_7pin_noblk"
+		(property "Footprint" "semitovpartslibrary:st7789_7pin_noblk"
 			(at 44.45 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -2983,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 93.98 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -3085,7 +3093,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
