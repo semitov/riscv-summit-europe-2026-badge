@@ -7,10 +7,10 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.3")
+		(rev "v1.4")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
-		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno")
+		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
@@ -2967,6 +2967,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bezier
 		(pts
@@ -3505,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 160.02 83.82)
+			(xy 144.78 83.82) (xy 151.13 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3515,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 142.24) (xy 160.02 142.24)
+			(xy 144.78 142.24) (xy 151.13 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 147.32) (xy 160.02 147.32)
+			(xy 144.78 147.32) (xy 151.13 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3745,7 +3884,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 160.02 106.68)
+			(xy 144.78 106.68) (xy 151.13 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4234,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 160.02 86.36)
+			(xy 144.78 86.36) (xy 151.13 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4105,7 +4244,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 160.02 78.74)
+			(xy 144.78 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4345,7 +4484,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 149.86) (xy 160.02 149.86)
+			(xy 144.78 149.86) (xy 151.13 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4945,7 +5084,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 160.02 76.2)
+			(xy 144.78 76.2) (xy 151.13 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4965,7 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 160.02 81.28)
+			(xy 144.78 81.28) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5015,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 160.02 73.66)
+			(xy 144.78 73.66) (xy 151.13 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5284,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 160.02 144.78)
+			(xy 144.78 144.78) (xy 151.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5293,16 +5432,6 @@
 		)
 		(uuid "13a4220f-f234-4c24-abbd-59aee793b7d1")
 	)
-	(label "GPIO27_ADC1"
-		(at 160.02 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1f84c192-c262-4589-bcc2-32ea799b0f69")
-	)
 	(label "VREG_LX"
 		(at 67.31 74.93 0)
 		(effects
@@ -5373,16 +5502,6 @@
 		)
 		(uuid "39042b95-26e7-4e7d-bdbe-43338f3f2acd")
 	)
-	(label "GPIO5"
-		(at 160.02 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3fe60ffb-8ceb-427c-8959-56a91c5a0618")
-	)
 	(label "QSPI_SCLK"
 		(at 240.03 82.55 180)
 		(effects
@@ -5393,16 +5512,6 @@
 		)
 		(uuid "408cc5cd-78ec-4d43-a932-655f2ebd22fa")
 	)
-	(label "GPIO13"
-		(at 160.02 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4419c36f-9bac-4f77-b09c-2223044d58b6")
-	)
 	(label "QSPI_SCLK"
 		(at 67.31 100.33 0)
 		(effects
@@ -5412,16 +5521,6 @@
 			(justify left bottom)
 		)
 		(uuid "4fb0b161-33dd-4d40-ae6d-865cbe49f1df")
-	)
-	(label "GPIO1"
-		(at 160.02 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "564e3297-556d-4cfa-bae8-4f9de973fe2e")
 	)
 	(label "SWD"
 		(at 67.31 140.97 0)
@@ -5473,16 +5572,6 @@
 		)
 		(uuid "6612ec7e-5d59-4f4f-ba3b-b0a0da606f16")
 	)
-	(label "GPIO2"
-		(at 160.02 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7eb951f3-4070-4125-83b4-7c2d7d883cfe")
-	)
 	(label "QSPI_SD1"
 		(at 240.03 87.63 180)
 		(effects
@@ -5523,46 +5612,6 @@
 		)
 		(uuid "98ecd72a-f7ad-4d9b-8897-15129ce5a197")
 	)
-	(label "GPIO28_ADC2"
-		(at 160.02 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99e3a169-5744-4034-9693-6bc8a57da33d")
-	)
-	(label "GPIO3"
-		(at 160.02 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9dafab43-054a-4ee6-b48c-3d5bb80b122a")
-	)
-	(label "GPIO0"
-		(at 201.93 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7f569e2-1510-4b60-8306-38fdafecbb26")
-	)
-	(label "GPIO26_ADC0"
-		(at 160.02 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b055fb5f-273c-4ade-b577-479a1afe800e")
-	)
 	(label "XOUT"
 		(at 67.31 114.3 0)
 		(effects
@@ -5593,16 +5642,6 @@
 		)
 		(uuid "d818aaab-6cde-4752-865b-65947d74141f")
 	)
-	(label "GPIO4"
-		(at 160.02 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8bdf3c0-8d95-48f9-bfd6-d3bb06595032")
-	)
 	(label "SWCLK"
 		(at 166.37 181.61 180)
 		(effects
@@ -5613,26 +5652,6 @@
 		)
 		(uuid "d99bec63-27cc-4c0d-bef6-cdffb28b801e")
 	)
-	(label "GPIO29_ADC3"
-		(at 160.02 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e30db3a7-2db7-4f07-a878-cb0c04d42636")
-	)
-	(label "GPIO0"
-		(at 160.02 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e9058c18-118d-4294-aa39-2cb2f7dee2f2")
-	)
 	(label "QSPI_SD3"
 		(at 67.31 96.52 0)
 		(effects
@@ -5642,6 +5661,30 @@
 			(justify left bottom)
 		)
 		(uuid "ee543376-2964-4316-8319-6312a8684d8e")
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 151.13 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00639bbc-ed6a-4a0e-929c-403a5b3a37ca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.8 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "ROW2"
 		(shape input)
@@ -5656,6 +5699,78 @@
 		(uuid "06e2b12a-de4a-4977-b7f8-38951a2fd17a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.5366 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape input)
+		(at 201.93 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f1eaf55-e636-4e39-8b47-ec00636e5abc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.26 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO3"
+		(shape input)
+		(at 151.13 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21849efb-6a0c-4fac-9aee-b2d0f6a700be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.8 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape input)
+		(at 151.13 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24ca8c62-9d03-483f-aa39-38e3eeef9aab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.0095 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,6 +5806,54 @@
 			)
 		)
 	)
+	(global_label "GPIO28_ADC2"
+		(shape input)
+		(at 151.13 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b03afe4-9f82-44eb-8b7a-9318bb790816")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8152 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO27_ADC1"
+		(shape input)
+		(at 151.13 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3066d377-f5eb-4ebb-9039-f9648bf221d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8152 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ROW1"
 		(shape input)
 		(at 161.29 132.08 0)
@@ -5704,6 +5867,54 @@
 		(uuid "44375e7e-3253-4107-93b8-7a540301c1c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.5366 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO1"
+		(shape input)
+		(at 151.13 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46b265c0-5fb3-4f72-8884-c80b8e663d08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.8 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape input)
+		(at 151.13 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d3cb3b8-01fd-4dd8-a154-2628c6bbda68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5883,6 +6094,54 @@
 			)
 		)
 	)
+	(global_label "GPIO29_ADC3"
+		(shape input)
+		(at 151.13 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b77f0c46-774b-4a32-85ec-c7965ea87c25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8152 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO5"
+		(shape input)
+		(at 151.13 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b8a7a387-44a8-4672-9c2a-b1c8dc132871")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.8 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "COL2"
 		(shape input)
 		(at 161.29 127 0)
@@ -5896,6 +6155,30 @@
 		(uuid "c17e1fa3-a117-434c-9fee-989483e59d13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.1133 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO26_ADC0"
+		(shape input)
+		(at 151.13 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1b88ae6-e349-4bb9-8776-fe0851202b5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.8152 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,6 +6395,30 @@
 		(uuid "f18024ab-0f0d-484e-a92f-bae922b51ee9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.1133 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO4"
+		(shape input)
+		(at 151.13 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f188c943-77cc-4830-a26c-6e4d81578bb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6623,6 +6930,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 266.7 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27808c74-14ac-4d9a-8052-eb4f8325b18a")
+		(property "Reference" "#PWR075"
+			(at 266.7 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ 3v3"
+			(at 266.7 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 266.7 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1532a76-ff01-43cf-8983-0e79b77c991d")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 68.58 57.15 0)
 		(unit 1)
@@ -6778,82 +7163,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 22.86 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "38479f69-32d6-45cd-97b4-3d43b3a1bb5e")
-		(property "Reference" "#PWR013"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 23.241 45.1358 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c38c52f7-3e20-4ac9-b447-055c3923e40d")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7371,7 +7680,7 @@
 				)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "+1v1"
 			(at 90.551 17.1958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7576,6 +7885,84 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 129.54 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692a6db0-5ac8-451a-abe5-821790360471")
+		(property "Reference" "#PWR073"
+			(at 129.54 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ 3v3"
+			(at 129.54 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 129.54 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9fab4fa-c700-465b-8bb9-d6f18b2addeb")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7905,82 +8292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 129.54 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7cee0d56-edd2-4936-9af6-8d1e23f5d2ac")
-		(property "Reference" "#PWR022"
-			(at 129.54 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 129.921 17.1958 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "22504929-818a-4dcc-8b6c-d498b2da1ddb")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 170.18 187.96 0)
 		(mirror y)
@@ -8212,6 +8523,84 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 22.86 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83162031-855f-4584-b131-6e3433cb5edc")
+		(property "Reference" "#PWR074"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+ 3v3"
+			(at 22.86 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 22.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d57098b8-5764-49c7-a967-838bde2f39c4")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8484,7 +8873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 151.13 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10430,82 +10819,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 266.7 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ffd16c30-7ff9-489c-b49a-8cd46c71cf24")
-		(property "Reference" "#PWR027"
-			(at 266.7 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 267.081 22.2758 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 266.7 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc867a21-619e-4263-bed8-9ca64ec99ee3")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
