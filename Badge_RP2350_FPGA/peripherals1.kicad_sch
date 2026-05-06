@@ -624,8 +624,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U5"
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -644,7 +644,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "semitovpartslibrary:st7789_7pin_noblk"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -709,7 +709,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -727,7 +727,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -745,7 +745,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -763,7 +763,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -781,7 +781,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -799,7 +799,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -817,7 +817,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1855,7 +1855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 52.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2011,7 +2011,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 102.87 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2193,7 +2193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 52.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2477,7 +2477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 77.47 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2863,7 +2863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 102.87 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2943,7 +2943,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 102.87 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3102,7 +3102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3284,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 77.47 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3499,25 +3499,25 @@
 				)
 			)
 		)
-		(pin ""
+		(pin "3"
 			(uuid "3ffb63b3-2926-4302-9ece-d2c4a82cb247")
 		)
-		(pin ""
+		(pin "5"
 			(uuid "6de2d13e-9ccf-4b0b-a0be-61087ea3543a")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "73b4190a-6156-40f2-9388-df611a9453dd")
 		)
-		(pin ""
+		(pin "1"
 			(uuid "d50eed1f-cc32-4476-8867-d18f6f30c1d4")
 		)
-		(pin ""
+		(pin "6"
 			(uuid "dbfff068-1a84-43b1-904f-42e7506c4d39")
 		)
-		(pin ""
+		(pin "7"
 			(uuid "a925eb2e-7d4a-43d7-9709-e7b70b110a80")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "ae13ddb6-ace6-4d86-81e4-4cb8da477d51")
 		)
 		(instances
@@ -3663,7 +3663,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
 			(at 77.47 83.82 0)
 			(hide yes)
 			(show_name no)

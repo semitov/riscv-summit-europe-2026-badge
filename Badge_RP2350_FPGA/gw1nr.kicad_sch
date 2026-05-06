@@ -6658,7 +6658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 216.408 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -6740,7 +6740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 51.308 74.93 90)
 			(hide yes)
 			(show_name no)

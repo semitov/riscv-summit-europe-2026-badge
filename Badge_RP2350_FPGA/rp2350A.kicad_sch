@@ -13,7 +13,7 @@
 		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -33,15 +33,14 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_MountingPin"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -66,11 +65,21 @@
 					)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -88,7 +97,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -99,43 +108,44 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_MountingPin_1_1"
+			(symbol "Conn_01x03_Pin_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
+					(start 0.8636 2.667)
 					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
+					(start 0.8636 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
+					(start 0.8636 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -146,7 +156,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -156,16 +166,20 @@
 						(type none)
 					)
 				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -183,7 +197,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -201,7 +215,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -211,24 +225,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3064,7 +3060,7 @@
 	)
 	(text "JST Debug Connector"
 		(exclude_from_sim no)
-		(at 148.59 170.18 0)
+		(at 149.86 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3320,12 +3316,6 @@
 		(uuid "b5ab2b92-36a7-4904-bffe-85c99baddc48")
 	)
 	(junction
-		(at 147.955 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcd9172f-260a-46a3-8b53-b087052007dc")
-	)
-	(junction
 		(at 252.73 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3422,16 +3412,6 @@
 			(type default)
 		)
 		(uuid "0146c55a-1cbd-467b-aed7-84fa76a94e5a")
-	)
-	(wire
-		(pts
-			(xy 147.955 176.53) (xy 147.955 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03072f07-1f72-40b6-9f58-03e8d24e3fe9")
 	)
 	(wire
 		(pts
@@ -3975,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 184.15) (xy 156.21 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e49be0e-c90f-4c47-aa68-45446ed02539")
+	)
+	(wire
+		(pts
 			(xy 240.03 90.17) (xy 242.57 90.17)
 		)
 		(stroke
@@ -4165,16 +4155,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 184.15) (xy 154.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "651c745b-83aa-4258-a4fd-2ef19e54b432")
-	)
-	(wire
-		(pts
 			(xy 129.54 22.86) (xy 138.43 22.86)
 		)
 		(stroke
@@ -4305,16 +4285,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 176.53) (xy 147.955 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7393bb1f-b2bd-400a-b94a-ba665e7a3f71")
-	)
-	(wire
-		(pts
 			(xy 205.74 139.7) (xy 205.74 149.86)
 		)
 		(stroke
@@ -4442,16 +4412,6 @@
 			(type default)
 		)
 		(uuid "8490f36a-59f6-4bd2-b67e-983e9d1c1bb5")
-	)
-	(wire
-		(pts
-			(xy 147.955 185.42) (xy 147.955 187.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c1443b-20d4-460c-a692-7fba1ed3a8b2")
 	)
 	(wire
 		(pts
@@ -4735,6 +4695,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 181.61) (xy 166.37 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed9d3d0-876b-4084-99e5-19f1a7a5b00e")
+	)
+	(wire
+		(pts
 			(xy 195.58 31.75) (xy 195.58 34.29)
 		)
 		(stroke
@@ -4742,16 +4712,6 @@
 			(type default)
 		)
 		(uuid "af383062-a52a-4ffe-8c16-38a9acb00e16")
-	)
-	(wire
-		(pts
-			(xy 147.955 185.42) (xy 154.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afdeaa24-458a-4eb4-87af-3bfea9434d3c")
 	)
 	(wire
 		(pts
@@ -4925,6 +4885,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 187.96) (xy 170.18 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca891300-df22-4345-9f8c-340842cad4e9")
+	)
+	(wire
+		(pts
 			(xy 58.42 24.13) (xy 58.42 22.86)
 		)
 		(stroke
@@ -4982,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "ce3eafee-c510-4f9d-b5dd-6915dda5a0c4")
+	)
+	(wire
+		(pts
+			(xy 156.21 186.69) (xy 166.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdec9fc-41f8-430c-be6b-3948c51be95b")
 	)
 	(wire
 		(pts
@@ -5045,16 +5025,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 179.07) (xy 149.86 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4d4292-7f5b-4c2d-90c4-d375792810df")
-	)
-	(wire
-		(pts
 			(xy 207.01 31.75) (xy 207.01 34.29)
 		)
 		(stroke
@@ -5102,16 +5072,6 @@
 			(type default)
 		)
 		(uuid "e29f5bd0-5fc9-4bee-810d-bafe065d7435")
-	)
-	(wire
-		(pts
-			(xy 137.16 173.99) (xy 149.86 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33f4086-50de-410b-9c9d-93c052fc0488")
 	)
 	(wire
 		(pts
@@ -5314,12 +5274,12 @@
 		(uuid "fd9ecb4f-4461-4525-b735-aecd24eb5531")
 	)
 	(label "SWD"
-		(at 137.16 179.07 0)
+		(at 166.37 186.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "06ae5b01-d451-48be-907d-d25cc3105881")
 	)
@@ -5644,12 +5604,12 @@
 		(uuid "d8bdf3c0-8d95-48f9-bfd6-d3bb06595032")
 	)
 	(label "SWCLK"
-		(at 137.16 173.99 0)
+		(at 166.37 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d99bec63-27cc-4c0d-bef6-cdffb28b801e")
 	)
@@ -7897,7 +7857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 37.465 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8015,6 +7975,83 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 187.96 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e4e040b-d69c-443a-87a7-de65cfdf000e")
+		(property "Reference" "#PWR057"
+			(at 170.18 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.053 192.3542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daadf7e3-8891-4134-ae99-470ada3475f7")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8212,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxG"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 48.26 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -8416,8 +8453,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 154.94 176.53 0)
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 151.13 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8426,31 +8463,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b59d65b-a705-4248-b49a-c405dc91f706")
-		(property "Reference" "J4"
-			(at 157.48 175.26 0)
+		(uuid "99abe2ce-bfb5-4328-bf1d-e4dbc88789d8")
+		(property "Reference" "J2"
+			(at 151.765 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 157.48 177.8 0)
+		(property "Value" "Conn_01x03_Pin"
+			(at 151.765 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 154.94 176.53 0)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+			(at 151.13 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,7 +8496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 176.53 0)
+			(at 151.13 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8471,8 +8506,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 176.53 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 151.13 184.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8481,22 +8517,19 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "e29ca8e6-a6b1-4901-976a-8c6e3fe27733")
-		)
 		(pin "2"
-			(uuid "f3ae3e32-f95d-4d9b-a941-0b188285e859")
+			(uuid "65ff93ea-8f9b-4ec3-86f9-6268dd621c5c")
+		)
+		(pin "1"
+			(uuid "eabffb84-25a5-4588-8c53-d2401bab8125")
 		)
 		(pin "3"
-			(uuid "4331e828-0701-4cc9-8019-8f78113e5153")
-		)
-		(pin "MP"
-			(uuid "e309f884-b44a-413b-ab6e-cfdba31840fe")
+			(uuid "786ae0e5-ea1f-458b-ab1c-33a0ec327b31")
 		)
 		(instances
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9855,83 +9888,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.955 187.325 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ebb52a7a-0601-40aa-adbd-fbaf27ce9ed8")
-		(property "Reference" "#PWR031"
-			(at 147.955 193.675 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.828 191.7192 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.955 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.955 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.955 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f524cde1-12e9-4249-962e-f27999ba051f")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/c306370f-049e-490b-97c0-e09d5a703aa8"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
