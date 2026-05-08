@@ -7,7 +7,7 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.4")
+		(rev "v1.42")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
 		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
@@ -3082,10 +3082,6 @@
 		(uuid "92720965-4a55-42d3-875a-96a8beef9426")
 	)
 	(no_connect
-		(at 72.39 62.23)
-		(uuid "a1dc573d-490a-46a0-8013-8fa5e8b1cc38")
-	)
-	(no_connect
 		(at 138.43 107.95)
 		(uuid "b7344dcf-bd15-4863-b80c-138ad8b682cc")
 	)
@@ -3708,6 +3704,16 @@
 			(type default)
 		)
 		(uuid "5361ad9c-aa47-441b-9647-0979c170b941")
+	)
+	(wire
+		(pts
+			(xy 68.58 62.23) (xy 72.39 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59502d03-235f-4b39-b4fd-f6fd2fbb7376")
 	)
 	(wire
 		(pts
@@ -4798,6 +4804,30 @@
 		(uuid "89d3895b-6cc8-412b-af30-f5c72d18062a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.8777 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "JTAGSEL_N"
+		(shape input)
+		(at 68.58 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b44ae23-71d0-4add-875d-af27c450e9a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.6163 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
