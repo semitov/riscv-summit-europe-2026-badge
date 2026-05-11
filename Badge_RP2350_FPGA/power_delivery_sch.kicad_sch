@@ -7,10 +7,10 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.42")
+		(rev "v1.5")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
-		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
+		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -2614,12 +2614,6 @@
 		(uuid "39b7837a-58db-4427-ba1f-e4bf9ff0449e")
 	)
 	(junction
-		(at 171.45 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a4d5524-960b-4d8b-8152-cd5031b0ccae")
-	)
-	(junction
 		(at 78.74 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2654,6 +2648,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68c20f63-5be1-448d-9314-bdcd08090fc4")
+	)
+	(junction
+		(at 171.45 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a7b60a1-389c-468f-8d08-dce6779c2396")
 	)
 	(junction
 		(at 73.66 52.07)
@@ -2726,12 +2726,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfd1c421-89cb-4531-b335-33d5c88872f3")
-	)
-	(junction
-		(at 176.53 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dcbf638b-50d0-4e64-b1b8-f48e383fed54")
 	)
 	(junction
 		(at 68.58 29.21)
@@ -2937,6 +2931,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 81.28) (xy 176.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa7f89f-416b-4021-9d1f-e48ade35d1ce")
+	)
+	(wire
+		(pts
 			(xy 95.25 43.18) (xy 99.06 43.18)
 		)
 		(stroke
@@ -3027,16 +3031,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 81.28) (xy 176.53 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53bc47c7-080f-42be-a5ef-baa6976fc890")
-	)
-	(wire
-		(pts
 			(xy 134.62 52.07) (xy 140.97 52.07)
 		)
 		(stroke
@@ -3044,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "54ccce27-1601-40fe-8847-ee9305ac0fa3")
-	)
-	(wire
-		(pts
-			(xy 176.53 81.28) (xy 177.8 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55e09d6c-c7f0-4741-9976-f385395c94d4")
 	)
 	(wire
 		(pts
@@ -4771,6 +4755,84 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
+		(at 161.29 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d207d6d-8f5c-4874-912f-a1c8823f6842")
+		(property "Reference" "#PWR080"
+			(at 161.29 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 161.29 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 161.29 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dec6e3e6-d407-4b8c-9eb2-04ea6f8642e3")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
 		(at 38.1 44.45 90)
 		(unit 1)
 		(body_style 1)
@@ -6169,6 +6231,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 29.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "833cf3b0-1033-4362-af51-1c874c1ae745")
+		(property "Reference" "#PWR081"
+			(at 46.99 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 39.37 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b08ba85-f825-487d-89b5-93ead466b377")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 204.47 92.71 0)
 		(unit 1)
@@ -6477,85 +6618,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 43.18 29.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f4c38e9-f19b-4c62-a754-0b6cd1d5119f")
-		(property "Reference" "#PWR071"
-			(at 46.99 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+ 3v3"
-			(at 39.37 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 43.18 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bdcdae5c-68c8-4d46-bd6a-76c9f4cdf523")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7951,84 +8013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 161.29 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e06cd65f-c693-4043-b68b-d2334828594e")
-		(property "Reference" "#PWR039"
-			(at 161.29 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+ 3v3"
-			(at 161.29 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 161.29 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2e2edb7-021a-4a99-9074-f8454469209f")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 87.63 29.21 90)
 		(unit 1)
@@ -8300,7 +8284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN"
+		(property "Footprint" "semitovpartslibrary:C&K JS102011SAQN"
 			(at 207.01 124.46 90)
 			(hide yes)
 			(show_name no)

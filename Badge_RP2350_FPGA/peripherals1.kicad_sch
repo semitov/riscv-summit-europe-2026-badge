@@ -7,10 +7,10 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.42")
+		(rev "v1.5")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
-		(comment 4 "Authors: Tan Siret Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
+		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x15_Pin"
@@ -1852,6 +1852,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 39.37) (xy 182.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40afcc36-87b9-4414-8c36-f221c6b39a89")
+	)
+	(wire
+		(pts
 			(xy 171.45 69.85) (xy 177.8 69.85)
 		)
 		(stroke
@@ -1998,7 +2008,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 39.37) (xy 177.8 39.37)
+			(xy 171.45 39.37) (xy 182.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2583,30 +2593,6 @@
 		)
 		(uuid "fc33e392-0e6c-4189-ba46-b5123eedf82a")
 	)
-	(global_label "GPIO1"
-		(shape input)
-		(at 177.8 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0280c4df-cb7c-4091-8618-5ae9119a486f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "COL1"
 		(shape input)
 		(at 59.69 76.2 90)
@@ -2727,6 +2713,30 @@
 			)
 		)
 	)
+	(global_label "JTAGSEL_N"
+		(shape input)
+		(at 177.8 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "242f6df4-cfe9-4a13-8182-aae83ec2b028")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.7637 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CS_TFT"
 		(shape input)
 		(at 68.58 48.26 0)
@@ -2764,6 +2774,54 @@
 		(uuid "3977d15b-533f-47d0-ba47-e66ac09609e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.1851 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RECON_N"
+		(shape input)
+		(at 177.8 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bdebb11-a7c3-452f-830a-d7d10913d460")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.4333 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape input)
+		(at 177.8 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41d4b02b-5068-48ba-aff3-c4bd78127ec1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.47 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,30 +2966,6 @@
 		(uuid "76002493-4ff9-4050-bd5d-678cb18b49aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.2323 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO2"
-		(shape input)
-		(at 177.8 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b10ef2d-d62d-4e39-ada8-cc36085533fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3111,30 +3145,6 @@
 			)
 		)
 	)
-	(global_label "GPIO3"
-		(shape input)
-		(at 177.8 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9b489771-c23f-4b9f-bd03-a565b7bfc74f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TDI"
 		(shape input)
 		(at 177.8 57.15 0)
@@ -3231,30 +3241,6 @@
 			)
 		)
 	)
-	(global_label "JTAGSEL_N"
-		(shape input)
-		(at 177.8 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b38484f6-7feb-42dd-9276-8b0337946ba0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.7637 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SDA_TFT"
 		(shape input)
 		(at 68.58 40.64 0)
@@ -3268,30 +3254,6 @@
 		(uuid "bb9124db-37bf-4bc5-a7b6-1da6f6165578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.1247 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO4"
-		(shape input)
-		(at 177.8 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bca915be-a784-44a1-96a7-9020f24c4b05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,54 +3385,6 @@
 			)
 		)
 	)
-	(global_label "GPIO5"
-		(shape input)
-		(at 177.8 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4ca01e0-9f80-485e-b2ef-a78daea6fc35")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPIO0"
-		(shape input)
-		(at 177.8 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d904b235-56a0-4981-9d2d-51fdef0b4682")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.47 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GPIO29_ADC3"
 		(shape input)
 		(at 177.8 74.93 0)
@@ -3516,6 +3430,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "DONE"
+		(shape input)
+		(at 177.8 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2d0aa15-c337-4316-8f54-3cbb66036a9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.8652 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3599,7 +3537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 52.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3755,7 +3693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 102.87 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3835,7 +3773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 43.18 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -3937,7 +3875,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 52.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4255,7 +4193,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 68.58 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -4326,6 +4264,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 66.04 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8642fcc6-4345-4460-805c-57394c72ebe1")
+		(property "Reference" "#PWR079"
+			(at 62.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 69.85 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 66.04 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1a5b032-8987-4b18-a97c-0018a0bf3382")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/e2446d2b-ae35-4e61-9554-78e9a4abd0b0"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 93.98 101.6 0)
 		(unit 1)
@@ -4357,7 +4374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 93.98 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4459,7 +4476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 77.47 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4539,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 43.18 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -4641,7 +4658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 68.58 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -4743,7 +4760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 93.98 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 102.87 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -4925,7 +4942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 102.87 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4974,8 +4991,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 66.04 35.56 270)
+		(lib_id "power:GND")
+		(at 182.88 36.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4983,10 +5000,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa46713d-d8e1-4e7d-ad98-a56c4592ec07")
-		(property "Reference" "#PWR055"
-			(at 62.23 35.56 0)
+		(uuid "a33f1c30-e9b3-4d9e-aa04-8338c913b731")
+		(property "Reference" "#PWR076"
+			(at 182.88 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4996,19 +5012,18 @@
 				)
 			)
 		)
-		(property "Value" "+ 3v3"
-			(at 69.85 35.5599 90)
+		(property "Value" "GND"
+			(at 186.69 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 35.56 0)
+			(at 182.88 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,7 +5034,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 35.56 0)
+			(at 182.88 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f69f5efe-7841-4d18-bcd4-a369d1e9d7c6")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/e2446d2b-ae35-4e61-9554-78e9a4abd0b0"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 177.8 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b629f6c7-4841-4cd0-8d99-98768bcd21d3")
+		(property "Reference" "#PWR078"
+			(at 173.99 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3v3"
+			(at 181.61 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +5123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 66.04 35.56 0)
+			(at 177.8 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5041,12 +5134,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "039ee1f0-2a55-4022-b9bf-99479a915a40")
+			(uuid "9363c54e-9817-4813-99e2-787687da3af8")
 		)
 		(instances
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/e2446d2b-ae35-4e61-9554-78e9a4abd0b0"
-					(reference "#PWR055")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 52.07 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5164,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 43.18 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5235,6 +5328,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 177.8 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d33890b5-c4b2-4692-b11e-255b7dde0b76")
+		(property "Reference" "#PWR077"
+			(at 173.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1v2"
+			(at 181.61 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 177.8 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0fb4124-4eb5-4f74-baae-d450ab8d30f1")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/e2446d2b-ae35-4e61-9554-78e9a4abd0b0"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 77.47 114.3 0)
 		(unit 1)
@@ -5266,7 +5438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 77.47 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5346,7 +5518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 68.58 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -5543,7 +5715,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "semitovpartslibrary:Nexperia BAS516,115"
 			(at 93.98 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -5645,7 +5817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS647_Sx38"
+		(property "Footprint" "semitovpartslibrary:SHOU HAN TS665PA 250gf"
 			(at 77.47 83.82 0)
 			(hide yes)
 			(show_name no)
