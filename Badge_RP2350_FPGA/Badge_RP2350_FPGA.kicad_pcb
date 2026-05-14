@@ -2127,7 +2127,7 @@
 	(footprint "semitovpartslibrary:C&K JS102011SAQN"
 		(layer "F.Cu")
 		(uuid "0f849c26-4889-41dd-8b8a-18e1d2093a45")
-		(at 60 167.7499)
+		(at 135.6 191.217)
 		(property "Reference" "SW12"
 			(at 0 -2.36 0)
 			(layer "F.SilkS")
@@ -2425,16 +2425,16 @@
 			)
 			(polygon
 				(pts
-					(xy 59.784 174.2779) (xy 59.784 172.3219) (xy 59.772 172.3099) (xy 58.32 172.3099) (xy 58.308 172.3219)
-					(xy 58.308 174.2419) (xy 58.332 174.2659)
+					(xy 135.384 197.745) (xy 135.384 195.789) (xy 135.372 195.777) (xy 133.92 195.777) (xy 133.908 195.789)
+					(xy 133.908 197.709) (xy 133.932 197.733)
 				)
 			)
 			(filled_polygon
 				(layer "Dwgs.User")
 				(island yes)
 				(pts
-					(xy 59.784 174.2779) (xy 59.784 172.3219) (xy 59.772 172.3099) (xy 58.32 172.3099) (xy 58.308 172.3219)
-					(xy 58.308 174.2419) (xy 58.332 174.2659)
+					(xy 135.384 197.745) (xy 135.384 195.789) (xy 135.372 195.777) (xy 133.92 195.777) (xy 133.908 195.789)
+					(xy 133.908 197.709) (xy 133.932 197.733)
 				)
 			)
 		)
@@ -2454,16 +2454,16 @@
 			)
 			(polygon
 				(pts
-					(xy 59.808 174.2779) (xy 59.808 172.2979) (xy 64.5 172.2979) (xy 64.5 168.6979) (xy 55.5 168.6979)
-					(xy 55.5 172.2979) (xy 58.296 172.2979) (xy 58.296 174.2779)
+					(xy 135.408 197.745) (xy 135.408 195.765) (xy 140.1 195.765) (xy 140.1 192.165) (xy 131.1 192.165)
+					(xy 131.1 195.765) (xy 133.896 195.765) (xy 133.896 197.745)
 				)
 			)
 			(filled_polygon
 				(layer "User.3")
 				(island yes)
 				(pts
-					(xy 59.808 174.2779) (xy 59.808 172.2979) (xy 64.5 172.2979) (xy 64.5 168.6979) (xy 55.5 168.6979)
-					(xy 55.5 172.2979) (xy 58.296 172.2979) (xy 58.296 174.2779)
+					(xy 135.408 197.745) (xy 135.408 195.765) (xy 140.1 195.765) (xy 140.1 192.165) (xy 131.1 192.165)
+					(xy 131.1 195.765) (xy 133.896 195.765) (xy 133.896 197.745)
 				)
 			)
 		)
@@ -2483,14 +2483,14 @@
 			)
 			(polygon
 				(pts
-					(xy 57.2 166.7499) (xy 57.8 166.7499) (xy 57.8 168.7499) (xy 57.2 168.7499)
+					(xy 132.8 190.217) (xy 133.4 190.217) (xy 133.4 192.217) (xy 132.8 192.217)
 				)
 			)
 			(filled_polygon
 				(layer "User.4")
 				(island yes)
 				(pts
-					(xy 57.2 166.7499) (xy 57.8 166.7499) (xy 57.8 168.7499) (xy 57.2 168.7499)
+					(xy 132.8 190.217) (xy 133.4 190.217) (xy 133.4 192.217) (xy 132.8 192.217)
 				)
 			)
 		)
@@ -2510,14 +2510,14 @@
 			)
 			(polygon
 				(pts
-					(xy 59.7 166.7499) (xy 60.3 166.7499) (xy 60.3 168.7499) (xy 59.7 168.7499)
+					(xy 135.3 190.217) (xy 135.9 190.217) (xy 135.9 192.217) (xy 135.3 192.217)
 				)
 			)
 			(filled_polygon
 				(layer "User.4")
 				(island yes)
 				(pts
-					(xy 59.7 166.7499) (xy 60.3 166.7499) (xy 60.3 168.7499) (xy 59.7 168.7499)
+					(xy 135.3 190.217) (xy 135.9 190.217) (xy 135.9 192.217) (xy 135.3 192.217)
 				)
 			)
 		)
@@ -2537,14 +2537,14 @@
 			)
 			(polygon
 				(pts
-					(xy 62.2 166.7499) (xy 62.8 166.7499) (xy 62.8 168.7499) (xy 62.2 168.7499)
+					(xy 137.8 190.217) (xy 138.4 190.217) (xy 138.4 192.217) (xy 137.8 192.217)
 				)
 			)
 			(filled_polygon
 				(layer "User.4")
 				(island yes)
 				(pts
-					(xy 62.2 166.7499) (xy 62.8 166.7499) (xy 62.8 168.7499) (xy 62.2 168.7499)
+					(xy 137.8 190.217) (xy 138.4 190.217) (xy 138.4 192.217) (xy 137.8 192.217)
 				)
 			)
 		)
@@ -4114,7 +4114,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "201e6892-a445-4fa9-8c04-a760b63d401c")
-		(at 131.52 194)
+		(at 116.12 186.91)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -5476,7 +5476,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "24ca5194-4723-49e8-8f84-8ba795c27d77")
-		(at 136.5 187)
+		(at 143.1 194.8)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
@@ -7587,7 +7587,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "31f29162-6d1c-4eb9-9732-10da14a41d54")
-		(at 137 192.49 90)
+		(at 121.6 185.4 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -8219,7 +8219,7 @@
 	(footprint "semitovpartslibrary:RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "4d29ab0c-d037-4339-833f-c4bab38e1dc3")
-		(at 138 165.375 180)
+		(at 101.3 151.1 180)
 		(descr "Raspberry Pi RP2350 QFN-60")
 		(tags "QFN DFN_QFN")
 		(property "Reference" "U1"
@@ -9297,7 +9297,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4f900376-1a4c-4eff-8c5d-efa60b8ea977")
-		(at 140 192.49 90)
+		(at 124.6 185.4 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -19475,7 +19475,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "97db538e-ea19-49b3-be09-5a25e5a2c31a")
-		(at 135 196)
+		(at 119.6 188.91)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -20060,9 +20060,9 @@
 	(footprint "semitovpartslibrary:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
 		(layer "F.Cu")
 		(uuid "9d31c0a2-b89c-46b6-883b-2b8a5a1eacdd")
-		(at 145.25 190.75 90)
+		(at 145.47435 172.5045)
 		(property "Reference" "U3"
-			(at -0.17435 -2.8512 90)
+			(at -0.17435 -2.8512 0)
 			(layer "F.SilkS")
 			(uuid "44e242d6-5753-46f2-9c85-142e5478fa2f")
 			(effects
@@ -20072,7 +20072,7 @@
 			)
 		)
 		(property "Value" "ME6211C12"
-			(at -0.17435 2.8422 90)
+			(at -0.17435 2.8422 0)
 			(layer "F.Fab")
 			(uuid "4528494d-02ee-4d41-b47a-5a5783dea796")
 			(effects
@@ -20082,7 +20082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6d3e6c0-da23-462e-921e-0a7ebdb41e04")
@@ -20093,7 +20093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "95d58c11-5a9d-4218-86c0-6e306950c612")
@@ -20104,7 +20104,7 @@
 			)
 		)
 		(property "JLC_3DModel" "460193f9bf2d42e58cf3c2f675b07dc6"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "Cmts.User")
 			(hide yes)
 			(uuid "f3b4d0cd-c5fb-4e8e-901f-d2ae0074ad55")
@@ -20116,7 +20116,7 @@
 			)
 		)
 		(property "JLC_3D_Size" "3.013 2.9"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "Cmts.User")
 			(hide yes)
 			(uuid "7efcb82d-f1c1-4292-b885-855703c55f76")
@@ -20138,6 +20138,16 @@
 		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start -1.5262 0.8512)
+			(end -1.5262 -0.8512)
+			(stroke
+				(width 0.1524)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "bedf28ac-c520-4681-8477-3d7a4e3dabde")
+		)
+		(fp_line
 			(start 0.4764 -0.8512)
 			(end -0.4764 -0.8512)
 			(stroke
@@ -20156,16 +20166,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "e8def498-f347-4375-b143-a9d86a23b5fd")
-		)
-		(fp_line
-			(start -1.5262 0.8512)
-			(end -1.5262 -0.8512)
-			(stroke
-				(width 0.1524)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "bedf28ac-c520-4681-8477-3d7a4e3dabde")
 		)
 		(fp_circle
 			(center -1.651 1.143)
@@ -20212,7 +20212,7 @@
 			(uuid "02854442-3df0-418a-ae73-30f02a0bdda7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "abdb47ea-b566-45da-ae67-bffdb9a1f517")
 			(effects
@@ -20223,7 +20223,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -0.95 1.1537 90)
+			(at -0.95 1.1537)
 			(size 0.49 1.157)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3v3")
@@ -20235,7 +20235,7 @@
 			(uuid "c1e42b90-edbf-4066-b53b-72315410a452")
 		)
 		(pad "2" smd rect
-			(at 0 1.1537 90)
+			(at 0 1.1537)
 			(size 0.49 1.157)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -20247,7 +20247,7 @@
 			(uuid "bf703b00-9d2d-455b-b2af-c9153569810c")
 		)
 		(pad "3" smd rect
-			(at 0.95 1.1537 90)
+			(at 0.95 1.1537)
 			(size 0.49 1.157)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+3v3")
@@ -20259,7 +20259,7 @@
 			(uuid "f771540b-46e3-455b-b61f-490f427bdf5a")
 		)
 		(pad "4" smd rect
-			(at 0.95 -1.1537 90)
+			(at 0.95 -1.1537)
 			(size 0.49 1.175)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "unconnected-(U3-NC-Pad4)")
@@ -20271,7 +20271,7 @@
 			(uuid "48776304-cd28-4810-886b-014cbda36496")
 		)
 		(pad "5" smd rect
-			(at -0.95 -1.1537 90)
+			(at -0.95 -1.1537)
 			(size 0.49 1.175)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+1v2")
@@ -20298,41 +20298,14 @@
 			)
 			(polygon
 				(pts
-					(xy 144.475 192.2) (xy 144.475 189.3) (xy 146.025 189.3) (xy 146.025 192.2)
+					(xy 144.02435 171.7295) (xy 146.92435 171.7295) (xy 146.92435 173.2795) (xy 144.02435 173.2795)
 				)
 			)
 			(filled_polygon
 				(layer "User.3")
 				(island yes)
 				(pts
-					(xy 144.475 192.2) (xy 144.475 189.3) (xy 146.025 189.3) (xy 146.025 192.2)
-				)
-			)
-		)
-		(zone
-			(layer "User.4")
-			(uuid "47ef16d0-5b0d-4c3f-a2dc-f028fef52765")
-			(hatch edge 0.5)
-			(priority 100)
-			(connect_pads yes
-				(clearance 0)
-			)
-			(min_thickness 0)
-			(fill yes
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 144.25 189.975) (xy 143.85 189.975) (xy 143.85 189.625) (xy 144.25 189.625)
-				)
-			)
-			(filled_polygon
-				(layer "User.4")
-				(island yes)
-				(pts
-					(xy 144.25 189.975) (xy 143.85 189.975) (xy 143.85 189.625) (xy 144.25 189.625)
+					(xy 144.02435 171.7295) (xy 146.92435 171.7295) (xy 146.92435 173.2795) (xy 144.02435 173.2795)
 				)
 			)
 		)
@@ -20352,45 +20325,14 @@
 			)
 			(polygon
 				(pts
-					(xy 144.25 191.875) (xy 143.85 191.875) (xy 143.85 191.525) (xy 144.25 191.525)
+					(xy 144.34935 171.5045) (xy 144.34935 171.1045) (xy 144.69935 171.1045) (xy 144.69935 171.5045)
 				)
 			)
 			(filled_polygon
 				(layer "User.4")
 				(island yes)
 				(pts
-					(xy 144.25 191.875) (xy 143.85 191.875) (xy 143.85 191.525) (xy 144.25 191.525)
-				)
-			)
-		)
-		(zone
-			(layer "User.4")
-			(uuid "88e95c06-b2b3-4252-a63c-c89a8200a13b")
-			(hatch edge 0.5)
-			(priority 100)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 144.51 189.975) (xy 144.24 189.975) (xy 144.24 189.625) (xy 144.51 189.625)
+					(xy 144.34935 171.5045) (xy 144.34935 171.1045) (xy 144.69935 171.1045) (xy 144.69935 171.5045)
 				)
 			)
 		)
@@ -20421,69 +20363,7 @@
 			)
 			(polygon
 				(pts
-					(xy 144.51 191.875) (xy 144.24 191.875) (xy 144.24 191.525) (xy 144.51 191.525)
-				)
-			)
-		)
-		(zone
-			(layer "User.4")
-			(uuid "1d6e3d99-61f6-4b09-9467-32f01bbddeba")
-			(hatch edge 0.5)
-			(priority 100)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 146.26 189.975) (xy 145.99 189.975) (xy 145.99 189.625) (xy 146.26 189.625)
-				)
-			)
-		)
-		(zone
-			(layer "User.4")
-			(uuid "2720a3c6-bc6d-433a-bd54-66b4db7811a1")
-			(hatch edge 0.5)
-			(priority 100)
-			(connect_pads
-				(clearance 0)
-			)
-			(min_thickness 0)
-			(keepout
-				(tracks allowed)
-				(vias allowed)
-				(pads allowed)
-				(copperpour not_allowed)
-				(footprints allowed)
-			)
-			(placement
-				(enabled no)
-				(sheetname "")
-			)
-			(fill
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 146.26 190.925) (xy 145.99 190.925) (xy 145.99 190.575) (xy 146.26 190.575)
+					(xy 144.34935 171.7645) (xy 144.34935 171.4945) (xy 144.69935 171.4945) (xy 144.69935 171.7645)
 				)
 			)
 		)
@@ -20514,61 +20394,7 @@
 			)
 			(polygon
 				(pts
-					(xy 146.26 191.875) (xy 145.99 191.875) (xy 145.99 191.525) (xy 146.26 191.525)
-				)
-			)
-		)
-		(zone
-			(layer "User.4")
-			(uuid "f66042e4-b6cc-4d82-98ee-6165642695f5")
-			(hatch edge 0.5)
-			(priority 100)
-			(connect_pads yes
-				(clearance 0)
-			)
-			(min_thickness 0)
-			(fill yes
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 146.65 189.975) (xy 146.25 189.975) (xy 146.25 189.625) (xy 146.65 189.625)
-				)
-			)
-			(filled_polygon
-				(layer "User.4")
-				(island yes)
-				(pts
-					(xy 146.65 189.975) (xy 146.25 189.975) (xy 146.25 189.625) (xy 146.65 189.625)
-				)
-			)
-		)
-		(zone
-			(layer "User.4")
-			(uuid "bec3a55a-23a6-44ea-a960-2758be0829e7")
-			(hatch edge 0.5)
-			(priority 100)
-			(connect_pads yes
-				(clearance 0)
-			)
-			(min_thickness 0)
-			(fill yes
-				(thermal_gap 0.5)
-				(thermal_bridge_width 0.5)
-				(island_removal_mode 0)
-			)
-			(polygon
-				(pts
-					(xy 146.65 190.925) (xy 146.25 190.925) (xy 146.25 190.575) (xy 146.65 190.575)
-				)
-			)
-			(filled_polygon
-				(layer "User.4")
-				(island yes)
-				(pts
-					(xy 146.65 190.925) (xy 146.25 190.925) (xy 146.25 190.575) (xy 146.65 190.575)
+					(xy 144.34935 173.5145) (xy 144.34935 173.2445) (xy 144.69935 173.2445) (xy 144.69935 173.5145)
 				)
 			)
 		)
@@ -20588,14 +20414,188 @@
 			)
 			(polygon
 				(pts
-					(xy 146.65 191.875) (xy 146.25 191.875) (xy 146.25 191.525) (xy 146.65 191.525)
+					(xy 144.34935 173.9045) (xy 144.34935 173.5045) (xy 144.69935 173.5045) (xy 144.69935 173.9045)
 				)
 			)
 			(filled_polygon
 				(layer "User.4")
 				(island yes)
 				(pts
-					(xy 146.65 191.875) (xy 146.25 191.875) (xy 146.25 191.525) (xy 146.65 191.525)
+					(xy 144.34935 173.9045) (xy 144.34935 173.5045) (xy 144.69935 173.5045) (xy 144.69935 173.9045)
+				)
+			)
+		)
+		(zone
+			(layer "User.4")
+			(uuid "2720a3c6-bc6d-433a-bd54-66b4db7811a1")
+			(hatch edge 0.5)
+			(priority 100)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 145.29935 173.5145) (xy 145.29935 173.2445) (xy 145.64935 173.2445) (xy 145.64935 173.5145)
+				)
+			)
+		)
+		(zone
+			(layer "User.4")
+			(uuid "bec3a55a-23a6-44ea-a960-2758be0829e7")
+			(hatch edge 0.5)
+			(priority 100)
+			(connect_pads yes
+				(clearance 0)
+			)
+			(min_thickness 0)
+			(fill yes
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 145.29935 173.9045) (xy 145.29935 173.5045) (xy 145.64935 173.5045) (xy 145.64935 173.9045)
+				)
+			)
+			(filled_polygon
+				(layer "User.4")
+				(island yes)
+				(pts
+					(xy 145.29935 173.9045) (xy 145.29935 173.5045) (xy 145.64935 173.5045) (xy 145.64935 173.9045)
+				)
+			)
+		)
+		(zone
+			(layer "User.4")
+			(uuid "47ef16d0-5b0d-4c3f-a2dc-f028fef52765")
+			(hatch edge 0.5)
+			(priority 100)
+			(connect_pads yes
+				(clearance 0)
+			)
+			(min_thickness 0)
+			(fill yes
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 146.24935 171.5045) (xy 146.24935 171.1045) (xy 146.59935 171.1045) (xy 146.59935 171.5045)
+				)
+			)
+			(filled_polygon
+				(layer "User.4")
+				(island yes)
+				(pts
+					(xy 146.24935 171.5045) (xy 146.24935 171.1045) (xy 146.59935 171.1045) (xy 146.59935 171.5045)
+				)
+			)
+		)
+		(zone
+			(layer "User.4")
+			(uuid "88e95c06-b2b3-4252-a63c-c89a8200a13b")
+			(hatch edge 0.5)
+			(priority 100)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 146.24935 171.7645) (xy 146.24935 171.4945) (xy 146.59935 171.4945) (xy 146.59935 171.7645)
+				)
+			)
+		)
+		(zone
+			(layer "User.4")
+			(uuid "1d6e3d99-61f6-4b09-9467-32f01bbddeba")
+			(hatch edge 0.5)
+			(priority 100)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0)
+			(keepout
+				(tracks allowed)
+				(vias allowed)
+				(pads allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 146.24935 173.5145) (xy 146.24935 173.2445) (xy 146.59935 173.2445) (xy 146.59935 173.5145)
+				)
+			)
+		)
+		(zone
+			(layer "User.4")
+			(uuid "f66042e4-b6cc-4d82-98ee-6165642695f5")
+			(hatch edge 0.5)
+			(priority 100)
+			(connect_pads yes
+				(clearance 0)
+			)
+			(min_thickness 0)
+			(fill yes
+				(thermal_gap 0.5)
+				(thermal_bridge_width 0.5)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 146.24935 173.9045) (xy 146.24935 173.5045) (xy 146.59935 173.5045) (xy 146.59935 173.9045)
+				)
+			)
+			(filled_polygon
+				(layer "User.4")
+				(island yes)
+				(pts
+					(xy 146.24935 173.9045) (xy 146.24935 173.5045) (xy 146.59935 173.5045) (xy 146.59935 173.9045)
 				)
 			)
 		)
@@ -27700,7 +27700,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "da45e321-a230-4c6e-923b-ea2e0d4c1ccd")
-		(at 133.48 198)
+		(at 118.08 190.91)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
