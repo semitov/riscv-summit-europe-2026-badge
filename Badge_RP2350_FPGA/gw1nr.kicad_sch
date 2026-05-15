@@ -2818,34 +2818,16 @@
 		(uuid "227e1c1d-3da9-4f7c-948c-f4d9f514570f")
 	)
 	(junction
-		(at 236.22 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a0e2c7-c003-4f32-8606-5c4941fb088c")
-	)
-	(junction
 		(at 275.59 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e2319d-ed4c-4c51-8114-3ea98ba13dce")
 	)
 	(junction
-		(at 236.22 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37171b73-4729-4774-b49f-9bb8f999c226")
-	)
-	(junction
 		(at 260.35 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "420c94af-4947-4281-a350-4dc272a4cc42")
-	)
-	(junction
-		(at 251.46 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d83fb42-be05-4dc2-887f-61f2a1afa224")
 	)
 	(junction
 		(at 212.09 41.91)
@@ -2878,18 +2860,6 @@
 		(uuid "7fb1f53a-ca2e-42fc-b3b3-ab15d49a53d9")
 	)
 	(junction
-		(at 236.22 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9274ea37-05cb-470d-bb7e-f49a7aea8fa9")
-	)
-	(junction
-		(at 189.23 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95105cff-bafb-424a-836e-8e6a76062df5")
-	)
-	(junction
 		(at 275.59 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2908,58 +2878,16 @@
 		(uuid "af2da1e7-d217-413d-9ceb-6dd8cbda11d7")
 	)
 	(junction
-		(at 236.22 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b327615c-4d4a-428f-bfc4-00b921c30298")
-	)
-	(junction
-		(at 251.46 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b48afcac-2457-4ec1-82b3-42e0ce316de4")
-	)
-	(junction
 		(at 260.35 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b98838a7-d593-4c95-bf86-fca51e3bbee0")
 	)
 	(junction
-		(at 204.47 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7d6612a-e43f-4eb2-9957-1e47d32963ef")
-	)
-	(junction
-		(at 251.46 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1426c8b-f47f-44c8-842a-1bbc31c9fc74")
-	)
-	(junction
-		(at 204.47 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e544b57a-f89d-462a-92ee-54e0b6170617")
-	)
-	(junction
 		(at 212.09 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8e4836-ec3c-473b-9daf-bee9c1ca1e2d")
-	)
-	(junction
-		(at 189.23 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0ebcccf-ccbb-4f8d-b671-a3fe4c75d9ec")
-	)
-	(junction
-		(at 251.46 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f73e2bcb-b76d-44ce-99d1-47c66e63f5f9")
 	)
 	(junction
 		(at 260.35 52.07)
@@ -3247,16 +3175,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 62.23) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a83ed0-1ae1-4250-a76d-ed33bcf05e22")
-	)
-	(wire
-		(pts
 			(xy 68.58 110.49) (xy 72.39 110.49)
 		)
 		(stroke
@@ -3264,16 +3182,6 @@
 			(type default)
 		)
 		(uuid "0a63e52f-955c-4e61-962e-863d10f1a119")
-	)
-	(wire
-		(pts
-			(xy 193.04 31.75) (xy 189.23 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aeec50d-c77e-4750-af62-6433158037a0")
 	)
 	(wire
 		(pts
@@ -3447,26 +3355,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 72.39) (xy 254 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2db2a790-b443-4dd9-8ce0-fa1ec0ebb512")
-	)
-	(wire
-		(pts
-			(xy 251.46 41.91) (xy 247.65 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dd1fed6-201b-47bb-a9ce-926cd3c158fe")
-	)
-	(wire
-		(pts
 			(xy 251.46 107.95) (xy 251.46 106.68)
 		)
 		(stroke
@@ -3474,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "2e7cb101-a1fc-4f2f-bd21-73c57d35b174")
-	)
-	(wire
-		(pts
-			(xy 251.46 52.07) (xy 251.46 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309676ec-f57b-4f90-a1e5-cf97c3ac983c")
 	)
 	(wire
 		(pts
@@ -3507,16 +3385,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 31.75) (xy 251.46 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348586d9-abf9-465e-ba8f-68df6e05ca8f")
-	)
-	(wire
-		(pts
 			(xy 260.35 62.23) (xy 260.35 72.39)
 		)
 		(stroke
@@ -3537,16 +3405,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 31.75) (xy 236.22 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9653ee-245d-432c-a864-2de93b7ab846")
-	)
-	(wire
-		(pts
 			(xy 44.45 67.31) (xy 44.45 71.12)
 		)
 		(stroke
@@ -3554,46 +3412,6 @@
 			(type default)
 		)
 		(uuid "3d68450e-f27c-482d-b897-51aa6264ee1d")
-	)
-	(wire
-		(pts
-			(xy 236.22 41.91) (xy 236.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e716af7-6223-44e1-bb78-908cdd9403cb")
-	)
-	(wire
-		(pts
-			(xy 251.46 31.75) (xy 247.65 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7f2885-1e34-4d8d-ab44-95dee4f19a0e")
-	)
-	(wire
-		(pts
-			(xy 204.47 31.75) (xy 200.66 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fbda001-dfc4-4e4a-8e33-b57c4e45f42e")
-	)
-	(wire
-		(pts
-			(xy 204.47 52.07) (xy 200.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4242bd5a-fab1-4b27-8396-62806a74c14d")
 	)
 	(wire
 		(pts
@@ -3647,36 +3465,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 31.75) (xy 236.22 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a311b3-1ae5-4740-bd4c-0cee82f0eefa")
-	)
-	(wire
-		(pts
-			(xy 251.46 52.07) (xy 247.65 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b5d67d7-f844-4293-bd8f-f349732e8400")
-	)
-	(wire
-		(pts
-			(xy 251.46 62.23) (xy 251.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bf99fd0-f0fc-4b2c-b676-ad456c567f20")
-	)
-	(wire
-		(pts
 			(xy 275.59 82.55) (xy 271.78 82.55)
 		)
 		(stroke
@@ -3684,16 +3472,6 @@
 			(type default)
 		)
 		(uuid "4c725307-43ea-4b37-a0b3-a414dc93f0ef")
-	)
-	(wire
-		(pts
-			(xy 193.04 41.91) (xy 189.23 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51d0de5c-35d6-4931-984b-b8ab06338b90")
 	)
 	(wire
 		(pts
@@ -3747,16 +3525,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 62.23) (xy 236.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f3a1f81-9deb-4025-a89f-79dd8d84dd61")
-	)
-	(wire
-		(pts
 			(xy 275.59 82.55) (xy 278.13 82.55)
 		)
 		(stroke
@@ -3774,16 +3542,6 @@
 			(type default)
 		)
 		(uuid "616d3c98-5c4e-41e9-af55-5843ca9ffef5")
-	)
-	(wire
-		(pts
-			(xy 204.47 41.91) (xy 204.47 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62a1b53d-fc07-4df4-b3cf-726d92ad2376")
 	)
 	(wire
 		(pts
@@ -3807,16 +3565,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 52.07) (xy 189.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "662d6f88-aeed-4c6a-8118-a2c732121b24")
-	)
-	(wire
-		(pts
 			(xy 138.43 123.19) (xy 152.4 123.19)
 		)
 		(stroke
@@ -3824,16 +3572,6 @@
 			(type default)
 		)
 		(uuid "6f584deb-c469-4a6d-9829-244377067acf")
-	)
-	(wire
-		(pts
-			(xy 251.46 41.91) (xy 251.46 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703e2f88-d121-4723-ba58-42220c35cf17")
 	)
 	(wire
 		(pts
@@ -3917,26 +3655,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 31.75) (xy 189.23 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88d52d1b-8d7d-4fc9-9ce5-f1180f537251")
-	)
-	(wire
-		(pts
-			(xy 236.22 29.21) (xy 236.22 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b119183-3f9f-4421-b76d-76f9adad663f")
-	)
-	(wire
-		(pts
 			(xy 232.41 124.46) (xy 234.95 124.46)
 		)
 		(stroke
@@ -3947,26 +3665,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 52.07) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919dd0bc-d80d-4759-97bb-93477fdc7562")
-	)
-	(wire
-		(pts
-			(xy 240.03 41.91) (xy 236.22 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c4c690-5a56-4fc4-868a-deb9736efd94")
-	)
-	(wire
-		(pts
 			(xy 264.16 62.23) (xy 260.35 62.23)
 		)
 		(stroke
@@ -3974,16 +3672,6 @@
 			(type default)
 		)
 		(uuid "9adf6f8c-5de8-42be-872e-f535ef8b11de")
-	)
-	(wire
-		(pts
-			(xy 189.23 29.21) (xy 189.23 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b096d12-1a3f-479e-ade9-7efe84116055")
 	)
 	(wire
 		(pts
@@ -4024,16 +3712,6 @@
 			(type default)
 		)
 		(uuid "a84483d1-c425-4feb-a07b-a75197613671")
-	)
-	(wire
-		(pts
-			(xy 204.47 41.91) (xy 200.66 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa329cf2-83f1-4202-b9e8-e838635b2003")
 	)
 	(wire
 		(pts
@@ -4087,16 +3765,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 72.39) (xy 240.03 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5210f91-542c-458a-87ed-28ef58303065")
-	)
-	(wire
-		(pts
 			(xy 215.9 41.91) (xy 212.09 41.91)
 		)
 		(stroke
@@ -4114,26 +3782,6 @@
 			(type default)
 		)
 		(uuid "b60b8ea2-a26f-4f74-b4e2-f9ca29e170e4")
-	)
-	(wire
-		(pts
-			(xy 251.46 62.23) (xy 247.65 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f585a4-a1b3-413b-ad4d-23343d2e1c2f")
-	)
-	(wire
-		(pts
-			(xy 204.47 52.07) (xy 207.01 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9950623-3b8e-412f-abab-4e418afabe45")
 	)
 	(wire
 		(pts
@@ -4227,16 +3875,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 41.91) (xy 189.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8b43f3a-a0c5-4546-a4e6-cee45a4732e8")
-	)
-	(wire
-		(pts
 			(xy 59.69 72.39) (xy 72.39 72.39)
 		)
 		(stroke
@@ -4277,16 +3915,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 31.75) (xy 204.47 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bffb3c-2d6f-4fc2-aec1-5d8487d4db9d")
-	)
-	(wire
-		(pts
 			(xy 212.09 41.91) (xy 212.09 52.07)
 		)
 		(stroke
@@ -4317,16 +3945,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 52.07) (xy 236.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f055f6ba-ae4e-4a1c-ad85-e1d5c22bfcae")
-	)
-	(wire
-		(pts
 			(xy 214.63 127) (xy 234.95 127)
 		)
 		(stroke
@@ -4354,16 +3972,6 @@
 			(type default)
 		)
 		(uuid "fdcea737-ef62-40c4-b731-22a396dc4d70")
-	)
-	(wire
-		(pts
-			(xy 251.46 72.39) (xy 247.65 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa076e1-7482-4dc8-b285-6e7b4ef6b836")
 	)
 	(wire
 		(pts
@@ -4984,249 +4592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 243.84 62.23 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19885c2c-b5ed-4ff6-80d4-0f9531841e5c")
-		(property "Reference" "C29"
-			(at 245.872 63.246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 241.3 62.738 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.03 63.1952 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2feec321-47e5-4f2a-8185-41acb54bea2d")
-		)
-		(pin "2"
-			(uuid "adb92199-79fa-4912-9e28-edcc8cee0432")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 196.85 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e4108fc-3224-4068-85a7-16db64f5ca4e")
-		(property "Reference" "C37"
-			(at 198.882 53.086 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 194.31 52.578 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 193.04 53.0352 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 196.85 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dd4172b-4748-4960-84ef-c87f31262d10")
-		)
-		(pin "2"
-			(uuid "7080f776-1c41-435d-b044-2abb1d24415a")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 196.85 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28e71a31-d3ce-4ff8-8d06-1a0de69ae023")
-		(property "Reference" "C35"
-			(at 198.882 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 194.31 32.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 193.04 32.7152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 196.85 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce598b58-73dc-42bc-947d-d1dc666c5476")
-		)
-		(pin "2"
-			(uuid "378fe08e-b393-46d2-9152-f704769ebbf6")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 245.11 105.41 0)
 		(unit 1)
@@ -5538,87 +4903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 243.84 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48563e13-38b0-42db-a8d7-a0b22f3058cf")
-		(property "Reference" "C26"
-			(at 245.872 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 241.3 32.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.03 32.7152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "535b82cc-00cb-47d6-ada9-dd20a09bdb81")
-		)
-		(pin "2"
-			(uuid "161f3ac6-ca80-42e3-bfe8-30f6880964e3")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 144.78 44.45 270)
 		(unit 1)
@@ -5692,87 +4976,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 243.84 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4913d2c2-33c6-47f6-90cb-290914c9d982")
-		(property "Reference" "C28"
-			(at 245.872 53.086 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 241.3 52.578 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.03 53.0352 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a29acf07-e784-4ebc-bb3f-3c2b5445d615")
-		)
-		(pin "2"
-			(uuid "27af6b48-7b4c-4043-a9f7-661648258d07")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6097,87 +5300,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 196.85 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "591cc814-18d3-4228-94cb-522fb173f10f")
-		(property "Reference" "C36"
-			(at 198.882 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 194.31 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 193.04 42.8752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 196.85 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "702da1e7-080e-41f6-a889-b5a5fd38d667")
-		)
-		(pin "2"
-			(uuid "b5a7754d-ccfd-41c6-86f9-45cde70f686b")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 251.46 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -6251,87 +5373,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 243.84 41.91 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6208328f-a404-4ecd-8827-975ba102b608")
-		(property "Reference" "C27"
-			(at 245.872 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 241.3 42.418 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.03 42.8752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae0564ea-ff7d-41d2-a81f-ceca0970341d")
-		)
-		(pin "2"
-			(uuid "64d7a3ca-cb8a-44eb-b712-31ab12b3c7a8")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6494,85 +5535,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 254 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d21c84c-7df3-4c71-8528-c6c8c77b77c6")
-		(property "Reference" "#PWR03"
-			(at 254 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdea987e-96c2-47f4-ac43-9bcb019c6eb8")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7073,84 +6035,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 189.23 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97dd51cf-3e38-4659-99ca-c0d333b9902f")
-		(property "Reference" "#PWR059"
-			(at 189.23 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1v2"
-			(at 189.23 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 189.23 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14c437c6-dd2a-4f1c-86e3-666022751942")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 214.63 134.62 180)
 		(unit 1)
@@ -7309,87 +6193,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 243.84 72.39 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6c6734d-6221-44c2-aceb-fa4d63d3bab1")
-		(property "Reference" "C30"
-			(at 245.872 73.406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 241.3 72.898 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.03 73.3552 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ec99321a-766f-4b1b-bc6e-59591f2275a7")
-		)
-		(pin "2"
-			(uuid "e3ce5a03-7583-4576-ae0a-5d02324571ed")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -7867,84 +6670,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 236.22 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb605454-bd02-4ea3-8757-f60ab6d56479")
-		(property "Reference" "#PWR061"
-			(at 236.22 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC00_1_2_3V3"
-			(at 236.22 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 236.22 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc86eb4e-99fc-405e-bcc3-9c9e34d2a71c")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8578,85 +7303,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 207.01 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd53d6a7-8c57-402b-92c0-d519d13ea67c")
-		(property "Reference" "#PWR025"
-			(at 207.01 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2616adf5-ed8f-423d-99fb-7afb033fb301")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/2d8d0ad2-8268-4696-bbfb-79e633c29f55"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)

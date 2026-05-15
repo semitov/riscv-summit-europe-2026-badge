@@ -2764,12 +2764,12 @@
 		(uuid "f056fa2d-f0dc-40d9-9779-1b69ff864526")
 	)
 	(no_connect
-		(at 212.09 127)
-		(uuid "228a6e53-0da8-4db6-9819-a03f07a00b74")
-	)
-	(no_connect
 		(at 125.73 162.56)
 		(uuid "310b0782-b690-4ffe-8cdf-4bbbb1734cc7")
+	)
+	(no_connect
+		(at 212.09 121.92)
+		(uuid "7b9b656b-ffee-4496-8404-806a1fac09a1")
 	)
 	(no_connect
 		(at 194.31 86.36)
@@ -3311,6 +3311,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 127) (xy 212.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3b6273-a4a3-49dd-9611-4826eac3f88b")
+	)
+	(wire
+		(pts
 			(xy 140.97 58.42) (xy 140.97 60.96)
 		)
 		(stroke
@@ -3778,16 +3788,6 @@
 			(type default)
 		)
 		(uuid "e68da671-b4ec-4aca-a8fa-729539f25f81")
-	)
-	(wire
-		(pts
-			(xy 215.9 121.92) (xy 212.09 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e692abe4-f0e4-4198-9687-582873db289d")
 	)
 	(wire
 		(pts
@@ -5469,84 +5469,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 215.9 121.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b52cf35-888b-4367-bb7b-4ceb6117a02b")
-		(property "Reference" "#PWR058"
-			(at 212.09 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 218.694 121.92 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08070221-e8b9-4c44-804c-87f2b3f23a50")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
-					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7333,6 +7255,84 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 215.9 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c34a1a18-10a2-41e9-8d1e-0e456a13347a")
+		(property "Reference" "#PWR058"
+			(at 212.09 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 218.694 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 215.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6696e3d1-9ff5-45e0-8a5e-8e0849c9dd89")
+		)
+		(instances
+			(project "Badge_RP2350_FPGA"
+				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
