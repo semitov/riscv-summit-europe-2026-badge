@@ -8,6 +8,7 @@
       "PWR"
     ],
     "hidden_nets": [
+      "",
       "GND"
     ],
     "high_contrast_mode": 1,
