@@ -7,7 +7,7 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.5")
+		(rev "v1.52")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
 		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
@@ -2997,19 +2997,6 @@
 		)
 		(uuid "54d33d90-911d-4b19-b0c5-4b48bb1e1d86")
 	)
-	(bezier
-		(pts
-			(xy 171.45 87.63) (xy 172.72 90.17) (xy 172.72 90.17) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "626da24d-2ac2-4624-9f63-1af977fcfd90")
-	)
 	(circle
 		(center 48.26 67.945)
 		(radius 0.635)
@@ -3092,16 +3079,6 @@
 			)
 		)
 		(uuid "7055ec75-6d60-4c75-8bc7-aad381823eea")
-	)
-	(text "FPGA mode pins"
-		(exclude_from_sim no)
-		(at 180.848 90.678 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9509cc34-8d40-4531-bb6c-1eeb0cdbae32")
 	)
 	(text "UART connection\nwith FPGA"
 		(exclude_from_sim no)
@@ -3359,6 +3336,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe9c9206-fa43-4a4e-bb76-affa68d211f7")
+	)
+	(no_connect
+		(at 144.78 88.9)
+		(uuid "12156ae6-3d03-460f-b22e-2db91a05485a")
+	)
+	(no_connect
+		(at 144.78 91.44)
+		(uuid "8fc02041-aa86-4b3d-8c7d-cc00a219d40d")
 	)
 	(wire
 		(pts
@@ -3629,16 +3614,6 @@
 			(type default)
 		)
 		(uuid "20275ea1-9007-4ad4-8ba1-1e2b9acb491d")
-	)
-	(wire
-		(pts
-			(xy 144.78 91.44) (xy 161.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c42961-20b5-4c59-9b9f-9b0a51ad76c4")
 	)
 	(wire
 		(pts
@@ -4259,16 +4234,6 @@
 			(type default)
 		)
 		(uuid "79bef4e4-41d9-4b04-af07-c1df1ff5fa23")
-	)
-	(wire
-		(pts
-			(xy 144.78 88.9) (xy 161.29 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae5bb84-7b17-4c1c-aa6d-e696cddc6852")
 	)
 	(wire
 		(pts
@@ -5984,30 +5949,6 @@
 			)
 		)
 	)
-	(global_label "MODE1"
-		(shape input)
-		(at 161.29 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4339257-1e3e-4895-81be-cb173beb802b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.6856 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "COL3"
 		(shape input)
 		(at 161.29 129.54 0)
@@ -6069,30 +6010,6 @@
 		(uuid "e06b2d58-7967-4864-8e19-044dba7731c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.7461 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MODE0"
-		(shape input)
-		(at 161.29 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee5414e5-5dbf-4c12-8fd9-e48bdcaf1c14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.6856 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

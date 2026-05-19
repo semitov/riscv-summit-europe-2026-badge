@@ -1,6 +1,26 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "badgefront",
+        "ww": 1.0,
+        "wx": -6.953706741333008,
+        "wy": 11.495750427246094,
+        "wz": -20.042285919189453,
+        "xw": 0.0,
+        "xx": 0.9524015188217163,
+        "xy": -0.10516484826803207,
+        "xz": 0.2861309349536896,
+        "yw": 0.0,
+        "yx": 0.10979390889406204,
+        "yy": 0.9939539432525635,
+        "yz": -0.00013573188334703445,
+        "zw": 0.0,
+        "zx": -0.28438684344291687,
+        "zy": 0.03154470771551132,
+        "zz": 0.9581902623176575
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_barcodes": false,
@@ -60,7 +80,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -254,7 +274,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.5"
+      "sch_revision": "v1.52"
     },
     "layer_pairs": [],
     "layer_presets": [],
