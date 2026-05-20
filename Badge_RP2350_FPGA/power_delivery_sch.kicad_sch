@@ -2692,6 +2692,12 @@
 		(uuid "a3499621-745a-4208-a921-e9680bd41915")
 	)
 	(junction
+		(at 140.97 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4cbfcdc-6d1d-4b8b-894f-3fbe8726a6f0")
+	)
+	(junction
 		(at 113.03 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2744,6 +2750,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e456c44c-00e4-4e16-ae28-d0653186543f")
+	)
+	(junction
+		(at 140.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e46a992e-120d-44cd-8336-efdb31882f04")
 	)
 	(junction
 		(at 55.88 38.1)
@@ -2861,6 +2873,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 46.99) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9f523b-d218-4407-bc57-cce7dd15d3cc")
+	)
+	(wire
+		(pts
 			(xy 125.73 134.62) (xy 133.35 134.62)
 		)
 		(stroke
@@ -2871,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 46.99) (xy 144.78 46.99)
+			(xy 134.62 46.99) (xy 140.97 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3418,6 +3440,16 @@
 			(type default)
 		)
 		(uuid "918b6c33-041b-41f1-aded-f61b5b72886d")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 144.78 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9993e2ca-0d17-4b2f-b185-94ecf85c4961")
 	)
 	(wire
 		(pts
@@ -7177,84 +7209,6 @@
 			(project "Badge_RP2350_FPGA"
 				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 140.97 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be18c465-a5f5-498f-aec2-72cf70ae27f3")
-		(property "Reference" "#PWR08"
-			(at 137.16 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5 v"
-			(at 143.51 53.594 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 140.97 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43869980-e97e-475c-b848-daf681fe438d")
-		)
-		(instances
-			(project "Badge_RP2350_FPGA"
-				(path "/0ce87b49-0553-4a87-87c1-84e31180901e/d42deb57-951c-4ebe-afa1-91d9e0ce4651"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
