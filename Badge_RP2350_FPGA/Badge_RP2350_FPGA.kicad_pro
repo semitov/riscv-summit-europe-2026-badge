@@ -80,7 +80,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -548,6 +548,21 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.3,
@@ -555,7 +570,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(185, 95, 255)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -570,7 +585,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(63, 255, 88)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -607,6 +622,14 @@
       {
         "netclass": "PWR",
         "pattern": "+1v1"
+      },
+      {
+        "netclass": "DIFF",
+        "pattern": "USB_D+"
+      },
+      {
+        "netclass": "DIFF",
+        "pattern": "USB_D-"
       }
     ]
   },
