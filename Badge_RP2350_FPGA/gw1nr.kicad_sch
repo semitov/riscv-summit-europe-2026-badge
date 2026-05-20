@@ -7,7 +7,7 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.52")
+		(rev "v1.53")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
 		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
@@ -2860,6 +2860,12 @@
 		(uuid "7fb1f53a-ca2e-42fc-b3b3-ab15d49a53d9")
 	)
 	(junction
+		(at 142.24 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96ceccaf-bddc-4cea-814f-57b765ad57f4")
+	)
+	(junction
 		(at 275.59 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2928,10 +2934,6 @@
 	(no_connect
 		(at 138.43 85.09)
 		(uuid "2cad4bbb-2804-45a3-a752-7eabf2d796cb")
-	)
-	(no_connect
-		(at 138.43 156.21)
-		(uuid "2f18bcf5-a5db-47f5-a1c3-b26ea31a60ad")
 	)
 	(no_connect
 		(at 138.43 100.33)
@@ -3415,6 +3417,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 156.21) (xy 142.24 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425dd693-a5d5-409f-9737-e37c0b4909b0")
+	)
+	(wire
+		(pts
 			(xy 232.41 132.08) (xy 234.95 132.08)
 		)
 		(stroke
@@ -3822,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "c0f0725e-ed28-4473-866b-8596d5719454")
+	)
+	(wire
+		(pts
+			(xy 142.24 156.21) (xy 142.24 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d9d8fe-8b78-4ec3-9d93-6f6dbfa43a34")
 	)
 	(wire
 		(pts
