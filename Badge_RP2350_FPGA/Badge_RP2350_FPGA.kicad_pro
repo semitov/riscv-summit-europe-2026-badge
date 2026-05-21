@@ -312,7 +312,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.53"
+      "sch_revision": "v1.54"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -907,7 +907,7 @@
         "uuid": "0ce87b49-0553-4a87-87c1-84e31180901e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR55,#PWR58-59,#PWR61,#PWR71",
     "variants": []
   },
   "sheets": [
@@ -921,7 +921,7 @@
     ],
     [
       "2d8d0ad2-8268-4696-bbfb-79e633c29f55",
-      "GW1NR 9K FPGA"
+      "GW1N 9K FPGA"
     ],
     [
       "e2446d2b-ae35-4e61-9554-78e9a4abd0b0",

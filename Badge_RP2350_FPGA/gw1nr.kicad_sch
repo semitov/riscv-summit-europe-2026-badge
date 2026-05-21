@@ -7,7 +7,7 @@
 	(title_block
 		(title "RISC-V Summit Europe Badge")
 		(date "2026-03-29")
-		(rev "v1.53")
+		(rev "v1.54")
 		(company "SemiTO-V, RISC-V Student Team")
 		(comment 3 "License: CERN-OHL-W-2.0")
 		(comment 4 "Authors: Tan S. Akıncı, Alessandro Bochino, Carlo Bendelli, Arianna Bruno, Valerio Donnini")
@@ -6887,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "semitovpartslibrary:QFN40P1000X1000X95-89N"
+		(property "Footprint" "Package_DFN_QFN:ArtInChip_QFN-88-1EP_10x10mm_P0.4mm_EP6.74x6.74mm_ThermalVias"
 			(at 105.41 100.33 0)
 			(hide yes)
 			(show_name no)
